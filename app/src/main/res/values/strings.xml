@@ -1,3 +1,58 @@
 <resources>
-    <string name="app_name">Submission</string>
+    <string name="app_name">PSG PLayers</string>
+    <string name="description">Deskripsi :</string>
+    <string name="player_photo">player photo</string>
+
+    <string-array name="data_name">
+        <item>Gianluigi Donnarumma</item>
+        <item>Presnel Kimpembe</item>
+        <item>Sergio Ramos</item>
+        <item>Marquinhos</item>
+        <item>Achraf Hakimi</item>
+        <item>Fabian Ruiz</item>
+        <item>Marco Verrati</item>
+        <item>Lionel Messi</item>
+        <item>Neymar Jr</item>
+        <item>Kylian Mbappe</item>
+    </string-array>
+
+    <string-array name="data_position">
+        <item>Kiper</item>
+        <item>Bek Tengah</item>
+        <item>Bek</item>
+        <item>Bek Tengah</item>
+        <item>Bek</item>
+        <item>Gelandang</item>
+        <item>Gelandang</item>
+        <item>Penyerang</item>
+        <item>Penyerang</item>
+        <item>Penyerang</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/donarumma</item>
+        <item>@drawable/kimpembe</item>
+        <item>@drawable/ramos</item>
+        <item>@drawable/marquionhos</item>
+        <item>@drawable/hakimi</item>
+        <item>@drawable/ruiz</item>
+        <item>@drawable/verrati</item>
+        <item>@drawable/messi</item>
+        <item>@drawable/neymar</item>
+        <item>@drawable/mbappe</item>
+    </integer-array>
+
+    <string-array name="data_description">
+        <item>Gianluigi Donnarumma merupakan seorang penjaga gawang sepak bola profesional dari Italia yang lahir pada tahun 1999. Saat ini dia bermain untuk tim Ligue 1 Prancis Paris Saint-Germain dan juga tim nasional Italia</item>
+        <item>Kimpembe adalah seorang pemain sepak bola berkewarganegaraan Prancis yang bermain untuk klub Paris Saint-Germain pada posisi Bek Tengah. Kimpembe bermain untuk klub Paris Saint-Germain sejak tahun 2014, dan membela tim nasional Prancis sejak tahun 2018</item>
+        <item>Sergio Ramos Garcia merupakan seorang pemain sepak bola asal Spanyol yang bermain untuk klub Paris Saint-Germain pada posisi bek tengah. Ia dianggap sebagai bek yang paling terbaik di dunia.</item>
+        <item>Marcos Aoás Corrêa, biasa dipanggil Marquinhos adalah seorang pemain sepak bola berkewarganegaraan Brasil yang bermain untuk klub Paris Saint-Germain biasa bermain pada posisi bek tengah.</item>
+        <item>Achraf Hakimi Mouh adalah pemain sepak bola profesional Maroko yang bermain sebagai bek untuk klub Ligue 1 Paris Saint-Germain dan tim nasional Maroko. Ia bergabung dengan akademi Real Madrid pada tahun 2006, dan dimainkan untuk setiap kategori junior sejak saat itu</item>
+        <item>Fabián Ruiz Peña, atau biasa dikenal sebagai Fabián, adalah seorang pemain sepak bola profesional asal Spanyol yang bermain sebagai gelandang tengah untuk klub Italia Napoli dan tim nasional Spanyol.</item>
+        <item>Marco Verratti adalah seorang pemain sepak bola berkewarganegaraan Italia yang bermain untuk klub Paris Saint-Germain biasa bermain pada posisi gelandang. Verratti memulai karier juniornya di klub Pescara kemudian memulai karier seniornya di klub tersebut, sebelum bergabung dengan Paris Saint-Germain pada tahun 2012. </item>
+        <item>Lionel Andrés Messi juga dikenal sebagai Leo Messi, adalah seorang pemain sepak bola profesional asal Argentina yang bermain sebagai penyerang untuk klub Ligue 1 Paris Saint-Germain dan merupakan kapten tim nasional Argentina. Ia dijuluki sebagai GOAT</item>
+        <item>Neymar da Silva Santos Júnior yang umumnya dikenal sebagai Neymar atau Neymar Jr, adalah pemain sepak bola profesional Brasil yang bermain untuk klub Prancis Paris Saint-Germain. Dia bermain sebagai penyerang atau pemain sayap</item>
+        <item>Kylian Mbappé Lottin adalah seorang pemain sepak bola profesional Prancis yang bermain sebagai penyerang untuk Paris Saint-Germain dan tim nasional Prancis. Ia dijuluki sebagai the next GOAT</item>
+    </string-array>
+
 </resources>

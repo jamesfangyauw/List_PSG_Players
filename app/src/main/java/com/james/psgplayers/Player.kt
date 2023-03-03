@@ -8,5 +8,5 @@ data class Player(
     val name : String,
     val position : String,
     val photo : Int,
-    val description : String?
+    val description : String
 ) : Parcelable

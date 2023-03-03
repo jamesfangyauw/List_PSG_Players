@@ -2,6 +2,10 @@
     <string name="app_name">PSG PLayers</string>
     <string name="description">Deskripsi :</string>
     <string name="player_photo">player photo</string>
+    <string name="myname">Yauw James Fang D.H.</string>
+    <string name="myemail">jamesfangyauw@gmail.com</string>
+    <string name="aboutpage">About</string>
+    <string name="share">Share</string>
 
     <string-array name="data_name">
         <item>Gianluigi Donnarumma</item>

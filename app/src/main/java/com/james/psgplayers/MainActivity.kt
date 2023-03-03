@@ -3,6 +3,8 @@ package com.james.psgplayers
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.james.psgplayers.databinding.ActivityMainBinding
 import java.util.Objects
@@ -38,11 +40,11 @@ class MainActivity : AppCompatActivity() {
         return listPlayer
     }
 
-    private fun showRecyclerList(){
+    private fun showRecyclerList() {
         activityMainBinding.rvItem.layoutManager = LinearLayoutManager(this)
         val listPlayerAdapter = ListPlayerAdapter(listItem)
-        activityMainBinding.rvItem.adapter=listPlayerAdapter
-        listPlayerAdapter.setOnItemClickCallback(object : ListPlayerAdapter.OnItemClickCallback{
+        activityMainBinding.rvItem.adapter = listPlayerAdapter
+        listPlayerAdapter.setOnItemClickCallback(object : ListPlayerAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Player) {
                 val intentToDetail = Intent(this@MainActivity, DetailPlayerActivity::class.java)
                 intentToDetail.putExtra(DetailPlayerActivity.EXTRA_PLAYER, data)
@@ -50,5 +52,20 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.about_page -> {
+                val moveIntent = Intent(this@MainActivity, AboutActivity::class.java)
+                startActivity(moveIntent)
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
